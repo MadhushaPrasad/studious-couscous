@@ -10,10 +10,11 @@ class Person {
   This is like default Constractor*/
 
 // Name Constructor
-  Person.guest() {
+  /* Person.guest() {
     name = "Prasad";
     age = 30;
   }
+  */
 
   void showOutPut() {
     print(name);
@@ -27,8 +28,8 @@ void main() {
   //person01.age = 23;
 
 //name constructor called
-  var persion03 = Person.guest();
-  persion03.showOutPut();
+  /*var persion03 = Person.guest();
+  persion03.showOutPut();*/
 
   person01.showOutPut();
 }
